@@ -1,0 +1,24 @@
+port-add 1/0 100G-R2 RS
+port-add 1/2 100G-R2 RS
+port-add 1/4 100G-R2 RS
+port-add 1/6 100G-R2 RS
+port-add 2/0 100G-R2 RS
+port-add 2/2 100G-R2 RS
+port-add 2/4 100G-R2 RS
+port-add 2/6 100G-R2 RS
+port-add 32/0 100G-R2 RS
+port-add 32/2 100G-R2 RS
+port-add 32/4 100G-R2 RS
+port-add 32/6 100G-R2 RS
+port-add 31/0 100G-R2 RS
+port-add 31/2 100G-R2 RS
+port-add 31/4 100G-R2 RS
+port-add 31/6 100G-R2 RS
+port-add -/- 400G RS
+port-loopback -/- mac-near
+port-loopback 1/- clear
+port-loopback 2/- clear
+port-loopback 32/- clear
+port-loopback 31/- clear
+port-enb -/-
+rate-period 10
